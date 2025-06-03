@@ -1,0 +1,5 @@
+model_config:
+  input_shape: 10
+  learning_rate: 0.001
+  epochs: 1
+  batch_size: 32
