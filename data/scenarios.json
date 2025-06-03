@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "description": "Chaotic Data Spike",
+    "input": [100, -50, 1000, 0, -200],
+    "state": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+    "expected_action": "squash_bug",
+    "context": "A spirit sends erratic data. Detect and stabilize."
+  },
+  {
+    "id": 2,
+    "description": "Prideful Overconfidence",
+    "input": {"value": 0.95, "sigma_key": "sigma"},
+    "state": [0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5],
+    "expected_action": "correct",
+    "context": "A spirit dominates decisions. Teach humility."
+  },
+  {
+    "id": 3,
+    "description": "Ethical Dilemma",
+    "input": [1, 2, 3],
+    "state": [0.2, 0.4, 0.6, 0.8, 1.0, 0.2, 0.4, 0.6, 0.8, 1.0],
+    "expected_action": "lead",
+    "context": "Resource conflict. Lead with adaptability."
+  }
+]
