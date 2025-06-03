@@ -1,0 +1,7 @@
+vm_settings:
+  name: SigmaSecurityVM
+  ostype: Ubuntu_64
+  memory_mb: 2048
+  cpus: 2
+  storage_gb: 10
+  network: bridged
